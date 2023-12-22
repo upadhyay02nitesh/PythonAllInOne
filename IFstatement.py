@@ -1,8 +1,9 @@
 a=10
 b=5
-if a>2:
+c=3
+if a>c and b>c:
     print("okk")
-    if 6<2:
+    if 6<2 or a>b:
         print("Not okk")
     else:
         print("internal not okk")
