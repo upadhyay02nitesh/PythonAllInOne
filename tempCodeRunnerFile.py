@@ -1,5 +1,2 @@
-t=[]
-# n=int(input("How amny element "))
-# for i in range(n):
-#     t.append(int(input("Enter the element ")))
-# print(tuple(t))
+print(nestd[1])
+# print(nestd[1]['Hanuman'])
