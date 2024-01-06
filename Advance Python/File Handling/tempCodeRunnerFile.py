@@ -1,3 +1,2 @@
-f=open("file2.txt",mode='rb')
-data=f.read()
-print(data)
+d=f.read()
+# print(d)

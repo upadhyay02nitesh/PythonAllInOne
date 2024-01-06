@@ -6,7 +6,7 @@ for i in a:
     print(i,end=" ")
 for i in range(len(a)):
     print(i,a[i],end=" ")
-
+ 
 # Function Of Array
 a.append(6)
 print(a)
