@@ -5,29 +5,29 @@
 
 # convert dict to json format
 
-# import json 
+import json 
 
-# d={
-#     'Name':"Ashwani Kumar Dwivedi",
-#     'Position':'Not It Engineer(S.D.A)',
-#     'Location':'Noida'}
+d={
+    'Name':"Ashwani Kumar Dwivedi",
+    'Position':'Not It Engineer(S.D.A)',
+    'Location':'Noida'}
 
-# print(type(d))
+print(type(d))
 
-# f=json.dumps(d)
-# print("Json",f)
-# print(type(f))
+f=json.dumps(d)
+print("Json",f)
+print(type(f))
 
 
 
 #Covert json format to dict
-# import json
-# js='{ "id": 121, "name": "Naveen", "course": "MERN Stack"}'
-# d=json.loads(js)
-# print(d)
-# print(type(d))
+import json
+js='{ "id": 121, "name": "Naveen", "course": "MERN Stack"}'
+d=json.loads(js)
+print(d)
+print(type(d))
 
-# Read data from json file from sample.json
+# Read data from json file from sample.json 
 
 # input=={
 #     "firstName": "Rack",
@@ -75,3 +75,14 @@ with open("sample.json",mode='r') as f:
 
         else:
             print(i,j)
+
+# Create Writing Data IN Json File
+
+import json 
+d={
+    'Name':'Kalu',
+    "Age":'Two Years'}
+
+with open("sample2.json",mode='w') as f:
+    json.dump(d,f)
+    print("Writing in json file completed !!")
